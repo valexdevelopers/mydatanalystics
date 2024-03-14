@@ -1,0 +1,36 @@
+.pageWrapper{
+    width: 100%;
+
+}
+.rows{
+    width: 100%;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.centered{
+    margin: 0 auto !important;
+}
+
+
+@media screen and (min-width:100px){
+    .chartWarpper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 30px;
+    }
+
+    .chartWarpper > div{
+        width:80%;
+        height: 300px;
+    }
+
+    canvas{
+        height: 100%;
+    }
+}
+
+
